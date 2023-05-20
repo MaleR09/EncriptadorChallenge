@@ -1,0 +1,120 @@
+body {
+    background-color: #FAECEC
+}
+.hojas-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("Imagenes/hojas.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo {
+    text-align: center;
+    color: #C96666;
+}
+.h1-mP {
+    margin: 1px;
+
+}
+.advertencia {
+    margin: 5px 0px;
+}
+.imagen-flor {
+    margin: 0%;
+    padding: 0%;
+}
+.main-area {
+    height: 60%;
+}
+.section {
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 5px dashed pink;
+    margin: 2.5px;
+    text-align: center;
+    color: #C96666;
+}
+.section1 {
+    width: 44.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: top;
+    font-size: 20px;
+
+}
+.opacity-textarea {
+    width: 100%;
+    height: 300px; 
+    resize: none;
+    border: none;
+    background-color: #FFCCCC;
+    opacity: 85%;
+    color: black;
+    font-size: 15px;
+    font-family: Courier, monospace;
+  }
+.section2 {
+    width: 9.33%;
+    border: none;
+}
+.section3 {
+    width: 44.33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: top;
+    font-size: 20px;
+
+}
+#resultado {
+    width: 100%;
+    height: 300px;
+    border: none;
+    background-color: white; 
+    opacity: 85%;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    font-family: Courier, monospace;
+
+
+
+}
+.imagen-Kitty {
+    width: 50%;
+    height: auto;
+}
+.imagen-oculta {
+    display: none;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    color: #575757;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-icons li {
+    list-style: none;
+}
+.social-icons img {
+    width: 25px;
+    height: 25px;
+  }
